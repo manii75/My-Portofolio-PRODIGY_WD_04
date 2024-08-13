@@ -1,0 +1,303 @@
+.navbar{
+    /* background-image: url(img/bg1.png);  */
+    background-color: black;
+    
+    background-position: center;
+    background-size: cover;
+    height: 95px;
+}
+.nav-link {
+    color: white;
+    margin-left: 50px;
+    font-weight: 700;
+margin-top: 25px;
+  
+}
+.nav-link:hover{
+    color: lightcoral;
+    text-decoration: underline;
+}
+.navbar-toggler-icon{
+    background-color:lightcoral;
+    width: 35px;
+    height: 45px;
+    border-radius: 4px;
+}
+.navbar-toggler{
+    color: white;
+}
+section{
+    background-repeat: no-repeat;
+}
+.body1{
+    /* background-image: url(img/bg1.png);  */
+}
+.body{
+    background-color: black;
+    width: 100%;
+    height: 600px;
+     background: linear-gradient( to right,rgb(29,92,177)40%,rgb(14,26,54)); */
+    /* background-color: black; */
+}
+.body1 h1{
+    color: white;
+    font-weight: 700;
+    font-size: 55px;
+    text-shadow: 15px 15px 15px cyan;
+    font-family: Agency FB;
+    
+    
+}
+.body1 h2{
+    color: white;
+    color: black;
+    font-weight: 700;
+    font-size: 35px;
+    /* text-shadow: 15px 15px 15px cyan; */
+    
+    font-family: Ink Free; 
+    
+    
+}
+.body1 h3{
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
+    /* text-shadow: 15px 15px 15px cyan; */
+    /* font-family: Ink Free; */
+    font-family: Agency FB;
+}
+.body1 h3 span{
+    color: lightcoral;
+    
+    
+}
+.body2 img{
+    border-radius: 15px;
+ }
+ #resumebtn{
+    width: 150px;
+    height: 45px;
+    background-color: lightcoral;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+#resumebtn a{
+    text-decoration: none;
+    color: white;
+}
+#resumebtn:hover{
+    background-color:black;
+    color: white;
+}
+
+#contactbtn{
+    width: 150px;
+    height: 45px;
+    background-color:black;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width:500px)  {
+    .body{
+        height: 700px;
+    }
+    .logo{
+        width: 30%;
+    }
+    .body1 h2{
+        font-size: 30px;
+        font-weight: 900;
+    }
+    .body1 h3{
+        font-size: 37px;
+    }
+    .body1 h1{
+        font-size: 48px;
+    }
+    .body2 img{
+        width: 100%;
+    }
+    #resumebtn{
+        width: 120px;
+        height: 45px;
+        background-color: lightcoral;
+        color: white;
+        font-weight: 600;
+        border: none;
+        border-radius: 5px;
+    }
+    
+#contactbtn{
+    width: 120px;
+    height: 45px;
+    background-color:black;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+    
+  }
+  @media only screen and (max-width:350px)  {
+    .body{
+        height: 400px;
+    }
+
+  }
+  @media only screen and (max-width:900px)  and (min-width:500px) {
+    .body{
+        height: 1000px; */
+    }
+  }
+
+.about{
+    
+      background: linear-gradient( to right ,rgb(14,26,54)30%,rgb(29,92,177));
+}
+.about2{
+    margin-top: 150px;
+}
+.about2 h4{
+    color: lightcoral;
+    font-family: Ink Free;
+    font-size: 35px;
+    font-weight: 800;
+    text-decoration: underline;
+
+}
+.about2 p{
+    color: white;
+    text-align: justify;
+font-size: 18px;
+font-weight: 700;
+font-family: Arial Narrow;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.about2 #btn1{
+    width: 150px;
+    height: 45px;
+    background-color: lightcoral;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+.about2 #btn1 a{
+    text-decoration: none;
+    color: white;
+}
+.about #btn1:hover{
+    background-color:black;
+    color: white;
+}
+
+.about2 #btn2{
+    width: 150px;
+    height: 45px;
+    background-color:black;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+.about #btn2:hover{
+    background-color:lightcoral;
+    color: white;
+}
+@media only screen and (max-width:500px)  {
+    .about2{
+        margin-top: 30px;
+    }
+    .about2 p{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .about2 #btn1{
+        width: 145px;
+    }
+    .about2 #btn2{
+        width: 145px;
+    }
+    
+  .contactform input{
+    width: 350px;
+  }
+  .contactform textarea{
+    width: 350px;
+  }
+  }
+
+
+
+  .skills{
+     background: linear-gradient( to right,rgb(29,92,177),rgb(14,26,54)100%); */
+    /* background-color: black;      */
+  }
+  .skills img{
+    background-color: white;
+    border-radius: 10%;
+  }
+  .skillstext h1{
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: Ink Free;
+    text-decoration: underline;
+
+  }
+
+  .project{
+    background: linear-gradient( to right ,rgb(14,26,54)5%,rgb(29,92,177));
+  }
+  .projecttext h4{
+    color: white;
+    font-weight: 700;
+    text-decoration: underline;
+    font-family: Ink Free;
+    color: white;
+  }
+  .project h4{
+    color: lightcoral;
+    font-weight: 700;
+  }
+  .project p{
+    color: white;
+    font-weight: 600;
+  }
+  .contactform{
+    background: linear-gradient( to right ,rgb(14,26,54)5%,rgb(29,92,177));
+
+  }
+  .contactform .form-label{
+    color: white;
+    font-size: 20px;
+  }
+  .contacttext h4{
+    color: white;
+    font-weight: 700;
+    text-decoration: underline;
+    font-family: Ink Free;
+
+  }
+.footer{
+    background: linear-gradient( to right,rgb(29,92,177),rgb(14,26,54)100%); 
+
+}
+.footer h6{
+    color: white;
+}
+.footer p{
+    color: white;
+}
+.footer i{
+    font-size: 20px;
+    color: white;
+}
